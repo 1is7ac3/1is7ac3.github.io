@@ -1,4 +1,4 @@
 /**
  * 
  */
-alert(Prueba);
+alert("Prueba");
