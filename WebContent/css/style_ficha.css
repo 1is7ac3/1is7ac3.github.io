@@ -3,6 +3,7 @@ table{
 	border: 2px solid black;
 	font-family: Arial;
 	text-align: center;
+	padding-color:#FFFFFF;
 }
 tr{
 	border: 1px solid black;
@@ -15,4 +16,10 @@ td{
 }
 th.th1{
 	background-color: #AAA;
+}
+span{
+	font-size: 46px;
+}
+img{
+	width:80px
 }
