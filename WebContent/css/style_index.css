@@ -1,23 +1,70 @@
 @CHARSET "UTF-8";
 body{
-	background-color: #2F2F2F;
+	-ms-user-select:none;
+	background-color: #FFFF90;
 	font-family:cooper;
 	font-size:18px;
+	text-align:center;
 }
 header.principal{
-	text-aling:center;
-	background-color:#3F3F3F;
-	color:#FFFFFF;
+	display:webkit;
+	background-color:#F1B702;
+	color:#000000;
+	border-radius:10px;
 }
-#myImg {
-    display:block;
-    margin-left:auto;
-    float:right;
-    cursor: pointer;
-    transition: 0.3s;
-    box-shadow:0 4px 8px 0 #5F5F5F;
+#h1p{
+	line-height:60px;
+	margin-bottom:1px;
+	margin-top:10px;
+	text-align:left;
+	text-indent:20px;
+	text-shadow:2px 1px #AAAAAA;
 }
-#myImg:hover {opacity: 0.7;}
+#h2p{
+	text-align:left;
+	margin-top:1px;
+	margin-bottom:30px;
+	text-indent:30px;
+	font-size:20px;
+	text-shadow:2px 1px #AAAAAA;
+}
+#email,#whatsapp{
+	cursor:pointer;
+}
+img.contacto{
+	width:50px;
+	height:50px;
+}
+img.contacto:hover{
+	filter:grayscale(50%);
+}
+a:link{
+	text-align:center;
+	text-decoration:none;
+}
+a:visited{
+	color:#370737;
+}
+aside{
+	display:block;
+	margin-top:40px;
+	float:right;
+	background-color:#82FE81;
+	border-radius:10px;
+	text-align:center;
+}
+section{
+	margin-top:40px;
+	float:left;
+	border-radius:10px;
+	background-color:#3D9CF3;
+}
+ul{
+	list-style-position:inside;
+}
+li{
+	list-style-position:outside;
+}
 .modal {
     display: none; 
     position: fixed; 
