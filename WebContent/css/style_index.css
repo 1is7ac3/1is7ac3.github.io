@@ -1,7 +1,7 @@
 @CHARSET "UTF-8";
 body{
 	-ms-user-select:none;
-	background-color: #FFFF90;
+	background-color: #111111;
 	font-family:cooper;
 	font-size:18px;
 	text-align:center;
@@ -16,8 +16,9 @@ header.principal{
 	line-height:60px;
 	margin-bottom:1px;
 	margin-top:10px;
+	margin-left:5px;
 	text-align:left;
-	text-indent:20px;
+	text-indent:10px;
 	text-shadow:2px 1px #AAAAAA;
 }
 #h2p{
@@ -45,19 +46,27 @@ a:link{
 a:visited{
 	color:#370737;
 }
+.section{
+	margin:10px;
+}
+.aside{
+	margin:5px;
+}
 aside{
 	display:block;
 	margin-top:40px;
 	float:right;
-	background-color:#82FE81;
+	background-color:#BBBBBB;
 	border-radius:10px;
 	text-align:center;
 }
 section{
+	display:block;
+	text-align:justify;
 	margin-top:40px;
 	float:left;
 	border-radius:10px;
-	background-color:#3D9CF3;
+	background-color:#CCCCCC;
 }
 ul{
 	list-style-position:outside;
