@@ -7,10 +7,15 @@
 		<link rel="stylesheet" type="text/css" href="css/style_ficha.css">
 	</head>
 	<body>
+		<div id="myModal" class="modal">
+			  <span class="close">×</span>
+			  <img class="modal-content" id="img01">
+			  <div id="caption"></div>
+			</div>
 		<table>
 			<tr>
-				<th colspan="5"><span>FICHA TÉCNICA</span></th>
-				<td class='foto'><img alt="FOTO" src="images/foto.jpg"></td>
+				<th class="thp" colspan="5">FICHA TÉCNICA</th>
+				<td><img id="foto" alt="FOTO" src="images/foto.jpg"></td>
 			</tr>
 			<tr>
 				<th class="th1" colspan="6">DATOS PERSONALES</th>
@@ -55,11 +60,11 @@
 				<th colspan="2">INSTITUCION</th><th colspan="2">CURSO</th><th>FECHA</th><th>DURACION</th>
 			</tr>
 			<tr>
-				<td colspan="2">CENTRO EDUCATIVO PROCCEL</td><td colspan="2"><a href="images/certificado_proccel.jpg">REPARACION Y MTTO. DE COMPUTADORAS</a></td><td>2015</td><td>64 HORAS</td>
+				<td colspan="2">CENTRO EDUCATIVO PROCCEL</td><td colspan="2"><span class='text'>REPARACION Y MTTO. DE COMPUTADORAS</span></td><td>2015</td><td>64 HORAS</td>
 			</tr>
 			<tr>
 				<td colspan="2"></td><td colspan="2"></td><td></td><td></td>
 		</table>
-		<script type="text/javascript" src='WebContent/js/script1.js'></script>
+		<script type="text/javascript" src='js/script_ficha.js'></script>
 	</body>
 </html>

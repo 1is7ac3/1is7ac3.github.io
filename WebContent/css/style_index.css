@@ -60,10 +60,8 @@ section{
 	background-color:#3D9CF3;
 }
 ul{
-	list-style-position:inside;
-}
-li{
 	list-style-position:outside;
+	list-style-type:circle;
 }
 .modal {
     display: none; 
