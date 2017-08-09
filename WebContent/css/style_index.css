@@ -137,5 +137,12 @@ li{
     section{
 		width:100%;
     }
+    aside{
+		display:block;
+		margin-top:40px;
+		background-color:#BBBBBB;
+		border-radius:10px;
+		text-align:center;
+    }
     
 }
