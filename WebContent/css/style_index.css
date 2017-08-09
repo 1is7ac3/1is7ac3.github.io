@@ -65,10 +65,11 @@ section{
 	text-align:left;
 	margin-top:40px;
 	float:left;
+	width:80%;
 	border-radius:10px;
 	background-color:#CCCCCC;
 }
-ul{
+li{
 	list-style-position:outside;
 	list-style-type:circle;
 }
