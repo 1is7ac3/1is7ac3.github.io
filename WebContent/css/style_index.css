@@ -136,12 +136,11 @@ li{
     }
     section{
 		width:100%;
-		float:center;
     }
     aside{
 		display:block;
 		margin-top:40px;
-		float:center;
+		float:left;
 		background-color:#BBBBBB;
 		border-radius:10px;
 		text-align:center;
