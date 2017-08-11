@@ -18,8 +18,8 @@ var cajero=0;
 class billete{
 	constructor(valor ,cantidad)
 	{
-		this.valor=valor
-		this.cantidad=cantidad
+		this.valor=valor;
+		this.cantidad=cantidad;
 	}
 }
 caja=[];

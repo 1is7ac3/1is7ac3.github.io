@@ -1,13 +1,50 @@
 @CHARSET "UTF-8";
-table{
-	border: 1px solid black;
-	width:100%;
-	height:100%;
-
-	margint:0px 0px 0px 0px;
-}
 canvas{
+	border:1px solid gray;
 	width:100%;
-	height:100%;
-	margint:0px 0px 0px 0px;
 }
+@media only screen and (max-height:240px){
+canvas{
+	height:100px;
+}
+}
+@media only screen and (max-height:640px){
+canvas{
+	height:400px;
+}
+}
+@media only screen and (max-height:480px){
+canvas{
+	height:300px;
+}
+@media only screen and (max-height:800px){
+canvas{
+	height:600px;
+}
+@media only screen and (max-height:720px){
+canvas{
+	height:600px;
+}
+@media only screen and (max-height:1280px){
+canvas{
+	height:1100px;
+}
+@media only screen and (max-height:1920px){
+canvas{
+	height:1800px;
+}
+@media only screen and (max-height:1080px){
+canvas{
+	height:900px;
+}
+@media only screen and (max-height:4096px){
+canvas{
+	height:3900px;
+}
+@media only screen and (max-height:2048px){
+canvas{
+	height:1900px;
+}
+
+
+
