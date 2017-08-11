@@ -24,15 +24,37 @@
 -->
 
 <head>
-<meta charset="utf-8" />
-<title>Cajero Automático</title>
-<meta name="generator" content="Geany 1.32" />
+	<meta charset="utf-8" />
+	<title>Cajero Automático</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="generator" content="Geany 1.32" />
+	<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
-
-<body>
-	<p id='ph1'>Introduzca la cantidad que desea retirar <input type='number' id='numberh1'/><input type='button' id='buttonh1' value='Retirar'/> </p>
-	<p id='ph2'></p>
-	<script src='Script.js'></script>
+<body>	
+<table id="table1">
+<tr>
+<td class="table1">	
+<table id="table2">
+<tr>
+<td class="pantalla" colspan="6"><p>Introduzca la cantidad que desea retirar:</p><p id="ph2">0,00</p></td>
+</tr>
+<tr>
+<td><input type='button' id='buttonh1' value="1"/></td><td><input type='button' id='buttonh2' value="2"/></td><td><input type='button' id='buttonh3' value="3"/></td><td><input type='button' id='buttonhb' value="Borrar"/></td><td class="b" rowspan="4" colspan="2"><p id='ph1'>Billetes<br/></p></td>
+</tr>
+<tr>
+<td><input type='button' id='buttonh4' value="4"/></td><td><input type='button' id='buttonh5' value="5"/></td><td><input type='button' id='buttonh6' value="6"/></td><td><input type='button' id='buttonhc' value="Cancelar"/></td>
+</tr>
+<tr>
+<td><input type='button' id='buttonh7' value="7"/></td><td><input type='button' id='buttonh8' value="8"/></td><td><input type='button' id='buttonh9' value="9"/></td><td><input type='button' id='buttonha' value="Aceptar"/></td>
+</tr>
+<tr>
+<td></td><td><input type='button' id='buttonh0' value="0"/></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>				
+	<script src="script.js"></script>
 </body>
 
 </html>
