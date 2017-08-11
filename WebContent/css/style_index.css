@@ -1,18 +1,20 @@
 @CHARSET "UTF-8";
-body{
-	-ms-user-select:none;
+body
+{
 	background-color: #111111;
 	font-family:cooper;
 	font-size:18px;
 	text-align:center;
 }
-header.principal{
+header
+{
 	display:webkit;
 	background-color:#F1B702;
 	color:#000000;
 	border-radius:10px;
 }
-#h1p{
+#h1p
+{
 	line-height:60px;
 	margin-bottom:1px;
 	margin-top:10px;
@@ -21,7 +23,8 @@ header.principal{
 	text-indent:10px;
 	text-shadow:2px 1px #AAAAAA;
 }
-#h2p{
+#h2p
+{
 	text-align:left;
 	margin-top:1px;
 	margin-bottom:30px;
@@ -29,28 +32,39 @@ header.principal{
 	font-size:20px;
 	text-shadow:2px 1px #AAAAAA;
 }
-#email,#whatsapp{
+#email,#whatsapp
+{
 	cursor:pointer;
 }
-img.contacto{
+img.contacto
+{
 	width:50px;
 	height:50px;
 }
-img.contacto:hover{
+img.contacto:hover
+{
 	filter:grayscale(50%);
 }
-a:link{
-	text-align:center;
+a
+{
 	text-decoration:none;
+	margin:10px;
 }
-a:visited{
+a:visited
+{
 	color:#370737;
 }
-.section{
+a:hover
+{
+	color:#F30707;
+}
+.section
+{
 	margin:10px;
 }
 .aside{
-	margin:5px;
+	margin:10px;
+	text-align:center;
 }
 aside{
 	display:block;
@@ -58,7 +72,7 @@ aside{
 	float:right;
 	background-color:#BBBBBB;
 	border-radius:10px;
-	text-align:center;
+	text-align:left;
 }
 section{
 	display:block;
@@ -72,6 +86,15 @@ section{
 li{
 	list-style-position:outside;
 	list-style-type:circle;
+}
+article{
+	display:block;
+	text-align:left;
+	margin-top:40px;
+	float:left;
+	width:75%;
+	border-radius:10px;
+	background-color:#F4DDDD;
 }
 .modal {
     display: none; 
@@ -138,12 +161,10 @@ li{
 		width:100%;
     }
     aside{
-		display:block;
-		margin-top:40px;
 		float:left;
-		background-color:#BBBBBB;
-		border-radius:10px;
-		text-align:center;
+	}
+    article{
+		width:100%;
     }
     
 }
