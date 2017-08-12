@@ -1,4 +1,17 @@
 @CHARSET "UTF-8";
+body{
+	background:#AAAAAA;
+}
+p{
+	font-size:18px;
+}
+#p1,#p2{
+	float:left;
+	margin:10px;
+}
+#p3{
+	float:right;
+}
 canvas{
 	border:1px solid gray;
 	width:100%;
