@@ -70,10 +70,13 @@ function retiroEfectivo()
 	p1.innerHTML=" ";
 	cajero=cajaDisponible(caja);
 	var b=parseInt(p2.innerHTML);
-	if (b<10||b>cajero||b%5!=0)
+	if (b<10||b%5!=0)
 	{
-		p1.innerHTML='Cajero no pudo procesar retiro <br/>';
-	}else {
+		p1.innerHTML='Monto no puede ser dispensado.<br/>';
+	}else if(b>cajero){
+		p1.innerHTML='Cajero no disponible para retiros.<br/>';
+	}
+	else {
 		var i=0;
 		while(b!=0)
 		{
