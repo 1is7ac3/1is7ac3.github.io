@@ -163,7 +163,7 @@ li{
     text-decoration: none;
     cursor: pointer;
 }
-@media only screen and (max-width: 970px){
+@media only screen and (max-width: 1010px){
     .modal-content {
         width: 100%;
     }
@@ -175,6 +175,10 @@ li{
 	}
     article{
 		width:100%;
+    }
+    img.article{
+    	width:90%;
+    	margin:10px;
     }
     
 }
