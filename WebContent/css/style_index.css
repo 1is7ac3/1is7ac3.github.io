@@ -2,6 +2,9 @@
 /*
 
 */
+p{
+	font-size:14px;
+}
 a
 {
 	text-decoration:none;
@@ -25,6 +28,14 @@ article{
 	border-radius:10px;
 	background-color:#F4DDDD;
 }
+.article{
+	width:95%;
+	margin:20px;
+}
+img.article{
+    	width:95%;
+    	margin:1px;
+    }
 aside{
 	display:block;
 	margin-top:40px;

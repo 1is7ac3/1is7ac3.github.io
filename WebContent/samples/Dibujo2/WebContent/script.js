@@ -1,26 +1,3 @@
-function sketch(c) {
-	intCanvas()
-	c.background(255,255,255);
-	c.stroke(0xFFFFD000);
-	c.strokeWeight(canvasv.wl);
-	window.addEventListener("resize",intCanvas);
-	c.draw=function(){
-		if(number2.value<5||number2.value=="")
-		{
-			canvasv.wl=5;
-		}else{canvasv.wl=parseInt(number2.value);}c.strokeWeight(canvasv.wl);
-		c.mouseDragged=function(){
-		c.line(c.mouseX,c.mouseY,c.mouseX+1,c.mouseY+1);
-		};
-	};
-
-	function intCanvas(){
-		var style=window.getComputedStyle(canvas1);
-		canvasv.width=parseInt(style.width.split('px')[0]);
-		canvasv.height=parseInt(style.height.split('px')[0]);
-		c.size(canvasv.width,canvasv.height);
-	}
-}
 var canvas1=document.getElementById('canvash1');
 var lienzo=canvas1.getContext('2d');
 var number1=document.getElementById('numberh1');
@@ -42,9 +19,18 @@ var tecla={
 var xi=canvasv.height/2;
 var yi=canvasv.width/2;
 document.addEventListener('keydown',DibujoFlechas);
-function DibujarLinea(colors,xi,yi,xf,yf,number)
+/*p.draw=function(){
+	console.log(p.width);
+};
+*/
+
+function intCanvas(){
+	var style=window.getComputedStyle(canvas1);
+	canvasv.width=parseInt(style.width.split('px')[0]);
+	canvasv.height=parseInt(style.height.split('px')[0]);
+}
+function DibujarLinea(colors,xi,yi,xf,yf)
 {
-	
 	lienzo.beginPath();
 	lienzo.lineWidth=canvasv.wl;
 	lienzo.strokeStyle=colors;
@@ -53,7 +39,6 @@ function DibujarLinea(colors,xi,yi,xf,yf,number)
 	lienzo.stroke();
 	lienzo.closePath();
 }
-
 function DibujoFlechas(result)
 {
 	var mov=number1.value;
@@ -69,7 +54,7 @@ function DibujoFlechas(result)
 			}else{
 			xf=xi+mov;
 			yf=yi;
-			DibujarLinea(colors,yi,xi,yf,xf,canvasv.wl);
+			DibujarLinea(colors,yi,xi,yf,xf);
 			xi=xf;}
 			break;
 		case tecla.UP:
@@ -78,7 +63,7 @@ function DibujoFlechas(result)
 			}else{
 			xf=xi-mov;
 			yf=yi;
-			DibujarLinea(colors,yi,xi,yf,xf,canvasv.wl);
+			DibujarLinea(colors,yi,xi,yf,xf);
 			xi=xf;}
 			break;
 		case tecla.LEFT:
@@ -87,7 +72,7 @@ function DibujoFlechas(result)
 			}else{
 			xf=xi;
 			yf=yi-mov;
-			DibujarLinea(colors,yi,xi,yf,xf,canvasv.wl);
+			DibujarLinea(colors,yi,xi,yf,xf);
 			yi=yf;}
 			break;
 		case tecla.RIGHT:
@@ -96,8 +81,30 @@ function DibujoFlechas(result)
 			}else{
 			yf=yi+mov;
 			xf=xi;
-			DibujarLinea(colors,yi,xi,yf,xf,canvasv.wl);
+			DibujarLinea(colors,yi,xi,yf,xf);
 			yi=yf;}
 			break;
 	}
+}
+function sketch(c) {
+	intCanvas();
+	window.addEventListener("resize",intCanvas);
+	c.size(canvasv.width,canvasv.height);
+	c.background(255,255,255);
+	c.stroke(0xFFFFD000);
+	console.log(c.size);
+	c.draw=function(){
+		if(number2.value<5||number2.value=="")
+		{
+			canvasv.wl=5;
+		}else{canvasv.wl=parseInt(number2.value);}
+		c.strokeWeight(canvasv.wl);
+		c.width=canvasv.width;
+		c.height=canvasv.height;
+		c.mouseDragged=function(){
+			DibujarLinea(colors,c.pmouseX,c.pmouseY,c.mouseX,c.mouseY);
+			/*c.line(c.pmouseX,c.pmouseY,c.mouseX,c.mouseY);
+			*/console.log(c.pmouseX,c.pmouseY);
+		};
+	};
 }
