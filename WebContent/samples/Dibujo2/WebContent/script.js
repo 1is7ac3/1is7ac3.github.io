@@ -31,6 +31,7 @@ function intCanvas(){
 }
 function DibujarLinea(colors,xi,yi,xf,yf)
 {
+	console.log(xi,yi,p);
 	lienzo.beginPath();
 	lienzo.lineWidth=canvasv.wl;
 	lienzo.strokeStyle=colors;
@@ -91,20 +92,14 @@ function sketch(c) {
 	window.addEventListener("resize",intCanvas);
 	c.size(canvasv.width,canvasv.height);
 	c.background(255,255,255);
-	c.stroke(0xFFFFD000);
-	console.log(c.size);
 	c.draw=function(){
 		if(number2.value<5||number2.value=="")
 		{
 			canvasv.wl=5;
 		}else{canvasv.wl=parseInt(number2.value);}
 		c.strokeWeight(canvasv.wl);
-		c.width=canvasv.width;
-		c.height=canvasv.height;
 		c.mouseDragged=function(){
 			DibujarLinea(colors,c.pmouseX,c.pmouseY,c.mouseX,c.mouseY);
-			/*c.line(c.pmouseX,c.pmouseY,c.mouseX,c.mouseY);
-			*/console.log(c.pmouseX,c.pmouseY);
 		};
 	};
 }

@@ -3,7 +3,8 @@
 
 */
 p{
-	font-size:14px;
+	font-family:Tahoma;
+	
 }
 a
 {
@@ -34,7 +35,7 @@ article{
 }
 img.article{
     	width:95%;
-    	margin:1px;
+    	margin:20px 20px 40px 20px;
     }
 aside{
 	display:block;
@@ -185,8 +186,8 @@ li{
 		width:100%;
     }
     img.article{
-    	width:95%;
-    	margin:1px;
+    	width:90%;
+    	margin:5px 5px 20px 10px;
     }
     .article{
 		margin:10px;

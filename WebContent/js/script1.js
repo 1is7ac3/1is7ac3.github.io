@@ -1,10 +1,11 @@
-/**
+
 var modal=document.getElementById('myModal');
-var img=document.getElementById('myImg');
+var img1=document.getElementById('cajero');
+var img2=document.getElementById('dibujo');
 var modalImg=document.getElementById("img01");
 var captionText=document.getElementById("caption");
 var span=document.getElementsByClassName("close")[0];
-*/
+
 class contacto{
 	constructor(name,number,icon){
 		this.name=name;
@@ -29,8 +30,13 @@ function show(number,name){
 function hide(name,icon){
 	name.innerHTML=icon;
 }
-/*
-img.onclick=function(){
+
+img1.onclick=function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+img2.onclick=function(){
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
@@ -38,4 +44,3 @@ img.onclick=function(){
 span.onclick=function() { 
     modal.style.display = "none";
 }
-*/
