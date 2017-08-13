@@ -15,10 +15,7 @@ a:hover
 {
 	color:#F30707;
 }
-img.article{
-    	width:100%;
-    	margin:10px;
-    }
+
 article{
 	display:block;
 	text-align:left;
@@ -181,8 +178,7 @@ li{
 		width:100%;
     }
     img.article{
-    	width:95%;
-    	margin:10px;
+    	width:93%;
     }
     
 }
