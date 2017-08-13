@@ -89,10 +89,6 @@ img.contacto:hover
 	margin:10px;
 	text-align:center;
 }
-.article{
-	margin:10px;
-	width:100%;
-}
 section{
 	display:block;
 	text-align:left;
@@ -180,6 +176,9 @@ li{
     img.article{
     	width:95%;
     	margin:1px;
+    }
+    .article{
+		margin:10px;
     }
     
 }
