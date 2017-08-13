@@ -178,7 +178,8 @@ li{
 		width:100%;
     }
     img.article{
-    	width:93%;
+    	width:95%;
+    	margin:1px;
     }
     
 }
