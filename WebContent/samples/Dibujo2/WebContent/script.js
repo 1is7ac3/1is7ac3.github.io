@@ -5,9 +5,9 @@ function sketch(c) {
 	c.strokeWeight(canvasv.wl);
 	window.addEventListener("resize",intCanvas);
 	c.draw=function(){
-		if(number2.value<1||number2.value=="")
+		if(number2.value<5||number2.value=="")
 		{
-			canvasv.wl=1;
+			canvasv.wl=5;
 		}else{canvasv.wl=parseInt(number2.value);}c.strokeWeight(canvasv.wl);
 		c.mouseDragged=function(){
 		c.line(c.mouseX,c.mouseY,c.mouseX+1,c.mouseY+1);

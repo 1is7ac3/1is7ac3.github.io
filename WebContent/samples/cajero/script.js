@@ -73,8 +73,10 @@ function retiroEfectivo()
 	if (b<10||b%5!=0)
 	{
 		p1.innerHTML='Monto no puede ser dispensado.<br/>';
+		p2.innerHTML="0,00";
 	}else if(b>cajero){
 		p1.innerHTML='Cajero no disponible para retiros.<br/>';
+		p2.innerHTML="0,00";
 	}
 	else {
 		var i=0;
