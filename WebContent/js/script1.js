@@ -1,14 +1,12 @@
 $(window).on('load',function() {
-	$('#myModal').show(function(){
-		
+	$('#myModal').show('slow',function(){
+		$(this).fadeOut(5000);
 		modalImg.src=logo.src;
-		
+				
 	});
 	
 });
 $(document).ready(function(){
-	$('#myModal').hide();
-	$('#logo').hide();
 	$('#email').click(function(){
 		$('#e').toggle('slow');
 	});
