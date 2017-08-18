@@ -2,9 +2,11 @@
 /*
 
 */
+.cont{
+	display:none;
+}
 p{
 	font-family:Tahoma;
-	
 }
 a
 {
