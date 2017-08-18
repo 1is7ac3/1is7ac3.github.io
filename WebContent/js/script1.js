@@ -1,7 +1,15 @@
+$(window).on('load',function() {
+	$('#myModal').show();
+});
 $(document).ready(function(){
+	$('#myModal').hide();
 	$('#email').click(function(){
 		$(this).effect('explode');
 		$(this).after(contactos[0].number);
+	});
+	$('#whatsapp').click(function(){
+		$(this).effect('explode');
+		$(this).after(contactos[1].number);
 	});
 });
 var modal=document.getElementById('myModal');
@@ -25,7 +33,7 @@ contactos.push(new contacto(email,'isaac.qa13@gmail.com',email.innerHTML));
 contactos.push(new contacto(whatsapp,'+58 416-2824229',whatsapp.innerHTML));
 //email.onmouseover=function(){show(contactos[0].number,contactos[0].name);}
 //email.onmouseout=function(){hide(contactos[0].name,contactos[0].icon);}
-whatsapp.onmouseover=function(){show(contactos[1].number,contactos[1].name);}
+//whatsapp.onmouseover=function(){show(contactos[1].number,contactos[1].name);}
 whatsapp.onmouseout=function(){hide(contactos[1].name,contactos[1].icon);}
 
 function show(number,name){
