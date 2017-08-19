@@ -2,15 +2,18 @@
 /*
 
 */
+#contacto{
+	margin:auto;
+}
 #logo{
 	display:block;
 	float:right;
 	width:200px;
-	height:150px;
-	position:relative;
+	height:140px;
 }
 .cont{
 	display:none;
+	margin:auto;
 }
 p{
 	font-family:Tahoma;
@@ -185,6 +188,9 @@ li{
     .modal-content {
         width: 100%;
     }
+    .principal{
+		margin:auto;
+    }
     section{
 		width:100%;
     }
@@ -201,5 +207,14 @@ li{
     .article{
 		margin:10px;
     }
-    
+@media only screen and (max-width: 720px){
+    #logo{
+	display:block;
+	margin:auto;
+	float:none;
+	vertical-align: middle;
 }
+	#h1p{
+		text-align:center;
+		margin:auto;
+    }
