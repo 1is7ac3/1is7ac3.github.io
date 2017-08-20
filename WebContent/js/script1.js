@@ -19,7 +19,7 @@ $(document).ready(function(){
 		$('.close').show();
 	});
 	$('.close').click(function(){
-		$('#myModal').fadeOut(100);
+		$('#myModal').fadeOut(1000);
 	});
 });
 var modal=document.getElementById('myModal');
