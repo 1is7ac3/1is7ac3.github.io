@@ -1,4 +1,5 @@
-$(window).on('load',function() {
+$(window).on('load',function() {	
+	$('.close').hide();
 	$('#myModal').show('slow',function(){
 		$(this).fadeOut(5000);
 		modalImg.src=logo.src;
@@ -12,6 +13,13 @@ $(document).ready(function(){
 	});
 	$('#whatsapp').click(function(){
 			$('#w').toggle('slow');
+	});
+	
+	$('#cajero').click(function(){
+		$('.close').show();
+	});
+	$('.close').click(function(){
+		$('#myModal').fadeOut(100);
 	});
 });
 var modal=document.getElementById('myModal');
@@ -32,6 +40,4 @@ img2.onclick=function(){
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
 }
-span.onclick=function() { 
-    modal.style.display = "none";
-}
+
