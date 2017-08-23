@@ -1,7 +1,5 @@
 @CHARSET "UTF-8";
-/*
 
-*/
 #contacto{
 	margin:auto;
 }
@@ -16,7 +14,7 @@
 	margin:auto;
 }
 p{
-	font-family:Tahoma;
+	text-align:justify;
 }
 a
 {
@@ -60,7 +58,7 @@ aside{
 body
 {
 	background-color: #111111;
-	font-family:cooper;
+	font-family:Tahoma;
 	font-size:18px;
 	text-align:center;
 }
