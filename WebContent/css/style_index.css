@@ -19,7 +19,7 @@ p{
 a
 {
 	text-decoration:none;
-	margin:10px;
+	margin:auto;
 }
 a:visited
 {
@@ -32,7 +32,6 @@ a:hover
 
 article{
 	display:block;
-	text-align:left;
 	margin-top:40px;
 	float:left;
 	width:75%;
@@ -80,6 +79,9 @@ body
 	text-indent:30px;
 	font-size:20px;
 	text-shadow:2px 1px #AAAAAA;
+}
+h2{
+	text-align:left;
 }
 #email,#whatsapp
 {
