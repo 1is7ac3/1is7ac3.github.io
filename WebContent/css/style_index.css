@@ -80,6 +80,10 @@ body
 	font-size:20px;
 	text-shadow:2px 1px #AAAAAA;
 }
+h1
+{
+	text-align: center;
+}
 h2{
 	text-align:left;
 }

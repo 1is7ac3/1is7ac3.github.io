@@ -5,6 +5,10 @@ table{
 	text-align: center;
 	padding-color:#FFFFFF;
 }
+.section
+{
+	margen: center;
+}
 #foto{
 	cursor:pointer;
 }
