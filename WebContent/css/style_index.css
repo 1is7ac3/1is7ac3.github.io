@@ -93,10 +93,11 @@ h2{
 }
 header
 {
-	display:webkit;
+	margin-left:-8px;
+	margin-right:-8px;
 	background-color:#F1B702;
 	color:#000000;
-	border-radius:10px;
+	
 }
 
 img.contacto
@@ -192,7 +193,8 @@ li{
         width: 100%;
     }
     .principal{
-		margin:auto;
+		margin-left:-8px;
+		margin-right:-8px;
     }
     section{
 		width:100%;
