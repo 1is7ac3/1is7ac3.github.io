@@ -31,6 +31,8 @@ class billete{
 	}
 }
 caja=[];
+caja.push(new billete(100000,20));
+caja.push(new billete(200000,40));
 caja.push(new billete(10000,15));
 caja.push(new billete(5000,50));
 caja.push(new billete(2000,24));
