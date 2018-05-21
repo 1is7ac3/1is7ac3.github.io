@@ -1,2 +1,0 @@
-# cajero
-Ejercicio Cajero Automatico
