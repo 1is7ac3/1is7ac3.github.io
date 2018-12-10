@@ -24,68 +24,68 @@ foto.onclick=function(){
 }
 text1.onclick=function(){
     modal.style.display="block";
-    modalImg.src="document/certificado_proccel.jpg";
+    modalImg.src="images/certificates/certificado_proccel.jpg";
     captionText.innerHTML="Certificado Proccel";
 }
 text2.onclick=function(){
 	modal.style.display='block';
-	modalImg.src='document/certificado_2.png';
+	modalImg.src='images/certificates/certificado_2.png';
 	captionText.innerHTML='Certificado Activate';
 }
 text3.onclick=function(){
 	modal.style.display='block';
-	modalImg.src='document/certificado_3.png';
+	modalImg.src='images/certificates/certificado_3.png';
 	captionText.innerHTML='Certificado Activate';
 }
 text4.onclick=function(){
 	modal.style.display='block';
-	modalImg.src='document/certificado_4.png';
+	modalImg.src='images/certificates/diploma-programacion-basica.png';
 	captionText.innerHTML='Certificado Platzi';
 }
 text5.onclick=function(){
 	modal.style.display='block';
-	modalImg.src='document/diploma-carrera-seguridad-informatica.png';
+	modalImg.src='images/certificates/diploma-carrera-seguridad-informatica.png';
 	captionText.innerHTML='Certificado Platzi Seguridad Informatica';
 }
 text6.onclick=function(){
 	modal.style.display='block';
-	modalImg.src='document/diploma-python.png';
+	modalImg.src='images/certificates/diploma-python.png';
 	captionText.innerHTML='Certificado Platzi Python';
 }
 text7.onclick=function(){
 	modal.style.display='block';
-	modalImg.src='document/certificado_4.png';
-	captionText.innerHTML='Certificado Platzi';
+	modalImg.src='images/certificates/diploma-algoritmos.png';
+	captionText.innerHTML='Certificado Platzi Algoritmos';
 }
 text8.onclick=function(){
 	modal.style.display='block';
-	modalImg.src='document/certificado_4.png';
-	captionText.innerHTML='Certificado Platzi';
+	modalImg.src='images/certificates/diploma-git-github.png';
+	captionText.innerHTML='Certificado Platzi Git Github';
 }
 text9.onclick=function(){
 	modal.style.display='block';
-	modalImg.src='document/certificado_4.png';
-	captionText.innerHTML='Certificado Platzi';
+	modalImg.src='images/certificates/diploma-linux.png';
+	captionText.innerHTML='Certificado Platzi Servidores';
 }
 text10.onclick=function(){
 	modal.style.display='block';
-	modalImg.src='document/certificado_4.png';
-	captionText.innerHTML='Certificado Platzi';
+	modalImg.src='images/certificates/diploma-pentesting.png';
+	captionText.innerHTML='Certificado Platzi Pentesting';
 }
 text11.onclick=function(){
 	modal.style.display='block';
-	modalImg.src='document/certificado_4.png';
-	captionText.innerHTML='Certificado Platzi';
+	modalImg.src='images/certificates/diploma-linux-2015.png';
+	captionText.innerHTML='Certificado Platzi Linux';
 }
 text12.onclick=function(){
 	modal.style.display='block';
-	modalImg.src='document/certificado_4.png';
-	captionText.innerHTML='Certificado Platzi';
+	modalImg.src='images/certificates/diploma-bitcoin.png';
+	captionText.innerHTML='Certificado Platzi Bitcoin';
 }
 text13.onclick=function(){
 	modal.style.display='block';
-	modalImg.src='document/certificado_4.png';
-	captionText.innerHTML='Certificado Platzi';
+	modalImg.src='images/certificates/diploma-ingenieria.png';
+	captionText.innerHTML='Certificado Platzi Ingenieria';
 }
 span.onclick = function() { 
     modal.style.display = "none";
