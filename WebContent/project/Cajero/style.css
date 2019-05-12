@@ -35,6 +35,7 @@ input
 	height:100%;
 	font-size:23px;
 	cursor:pointer;
+        border-radius:20px;
 }
 input:hover{
 	opacity:0.5;
@@ -65,4 +66,6 @@ tr{
 .table1{
 	border-radius:10px;
 }
-
+.button{
+        border-radius:20px;
+}
