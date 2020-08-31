@@ -1,12 +1,13 @@
+
 $(window).on('load',function() {	
 	$('.close').hide();
-	$('#myModal').show('fast',function(){
+	$('#preloader').show('fast',function(){
 		$(this).fadeOut(5000);
-		$('#img01').attr('src',$('#logo').attr('src'));
+		$('#imgIQ').attr('src',$('#logo').attr('src'));
 	});
 });
-$(document).ready(function(){
-	console.log($('#logo').attr('src'));
+
+$(document).ready(function(){;
 	$('#email').click(function(){
 		$('#e').toggle('slow');
 	});
