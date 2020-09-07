@@ -1,9 +1,8 @@
 
 $(window).on('load',function() {	
 	$('.close').hide();
-	$('#preloader').show('fast',function(){
+	$('.preloader').show('fast',function(){
 		$(this).fadeOut(5000);
-		$('#imgIQ').attr('src',$('#logo').attr('src'));
 	});
 });
 
