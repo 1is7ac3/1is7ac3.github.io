@@ -154,6 +154,7 @@ img.contacto:hover
     position: relative;
     display: inline-block;
     text-align: center;
+	width: 100%;
 }
 .text-up{
     position: absolute;
@@ -169,8 +170,6 @@ img.contacto:hover
     top: 50%;
     left: 60%;
 	font-size: 60px;
-	
-		
 }
 a.p-text:link{
 	color: white;
