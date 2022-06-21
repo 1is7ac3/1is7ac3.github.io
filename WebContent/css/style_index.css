@@ -140,20 +140,59 @@ img.contacto:hover
 
 .section
 {
-	margin:10px;
+	text-align: center;
+	display:block;
+	text-align:center;
+	margin-top:10px;
+	width: 100%;
+	padding: 20px;
+    float:left;
+	border-radius:10px;
+	background-color:#56ffff;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.text-up{
+    position: absolute;
+	color: #ffffff;
+	font-size: 70px;
+    top: 10%;
+    left: 60%;
+	right: 20%;
+}
+.text-center{
+    position: absolute;
+	color: white;
+    top: 50%;
+    left: 60%;
+	font-size: 60px;
+	
+		
+}
+a.p-text:link{
+	color: white;
+	border-style: solid;
+	border-color: white;
+	background: #202020;
+}
+a.p-text:visited{
+	color: white;
+	border-style: solid;
+	border-color: white;
+	background: #202020;
+}
+a.p-text:hover{
+	color: #202020;
+	border-style: solid;
+	border-color: #202020;
+	background: white;
 }
 .aside{
 	margin:10px;
 	text-align:center;
-}
-section{
-	display:block;
-	text-align:left;
-	margin-top:40px;
-	width: 100%;
-        float:left;
-	border-radius:10px;
-	background-color:#CCCCCC;
 }
 li{
 	list-style-position:outside;
