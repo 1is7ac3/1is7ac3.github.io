@@ -73,7 +73,7 @@ function retiroEfectivo()
 	p1.innerHTML=" ";
 	cajero=cajaDisponible(caja);
 	var b=parseInt(p2.innerHTML);
-	if (b<10||b%5!=0)
+	if (b<1000||b%1000!=0)
 	{
 		p1.innerHTML='Monto no puede ser dispensado.<br/>';
 		p2.innerHTML="0,00";
