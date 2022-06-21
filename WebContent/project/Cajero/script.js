@@ -31,12 +31,11 @@ class billete{
 	}
 }
 caja=[];
-caja.push(new billete(500,10));
-caja.push(new billete(100,10));
-caja.push(new billete(50,15));
-caja.push(new billete(20,10));
-caja.push(new billete(10,50));
-caja.push(new billete(5,10));
+caja.push(new billete(20000,1000));
+caja.push(new billete(10000,1000));
+caja.push(new billete(5000,1000));
+caja.push(new billete(2000,1000));
+caja.push(new billete(1000,1000));
 retirar=buttona.addEventListener('click',retiroEfectivo);
 button0.onclick=function(){cantidadRetiro(button0);}
 button1.onclick=function(){cantidadRetiro(button1);}
@@ -96,7 +95,7 @@ function retiroEfectivo()
 			b=b-(billetes*caja[i].valor);
 			caja[i].cantidad=caja[i].cantidad-billetes;
 			if (billetes>0){
-				p1.innerHTML=p1.innerHTML+billetes+' Billetes de: '+caja[i].valor+' Bs.<br/>';
+				p1.innerHTML=p1.innerHTML+billetes+' Billetes de: '+caja[i].valor+' $.<br/>';
 			}
 			i++;		
 		}
