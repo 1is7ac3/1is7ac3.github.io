@@ -30,6 +30,14 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+body
+{
+	width: 100%;
+	background:linear-gradient( #634f4f,#2a3ae9);
+	font-family:Hack;
+	font-size:18px;
+	text-align:center;
+}
 #contacto{
 	margin:auto;
 }
@@ -38,6 +46,22 @@
 	float:left;
 	width:200px;
 	height:140px;
+}
+.section
+{
+	text-align:right;
+	width: 99%;
+	border-radius:10px;
+	background-color:#56ffff;
+}
+a.section
+{
+	padding: 1%;
+}
+a.section:hover
+{
+	color: #56ffff;
+	background-color: #ffffff;
 }
 .cont{
 	display:none;
@@ -64,7 +88,7 @@ article{
 	display:block;
 	margin-top:40px;
 	float:left;
-	width:100%;
+	width:99%;
 	border-radius:10px;
 	background-color:#F4DDDD;
 }
@@ -82,13 +106,6 @@ aside{
 	background-color:#BBBBBB;
 	border-radius:10px;
 	text-align:left;
-}
-body
-{
-	background-color: #006eff;
-	font-family:Hack;
-	font-size:18px;
-	text-align:center;
 }
 #h1p
 {
@@ -120,15 +137,6 @@ h2{
 {
 	cursor:pointer;
 }
-header
-{
-	margin-left:-8px;
-	margin-right:-8px;
-	/*background-color:#F1B702;*/
-	color:#000000;
-	
-}
-
 img.contacto
 {
 	width:50px;
@@ -137,19 +145,6 @@ img.contacto
 img.contacto:hover
 {
 	filter:grayscale(50%);
-}
-
-.section
-{
-	text-align: center;
-	display:block;
-	text-align:center;
-	margin-top:10px;
-	width: 100%;
-	padding: 20px;
-    float:left;
-	border-radius:10px;
-	background-color:#56ffff;
 }
 .contenedor{
     position: relative;
@@ -168,7 +163,7 @@ img.contacto:hover
 .text-center{
     position: absolute;
 	color: white;
-    top: 50%;
+    top: 40%;
     left: 60%;
 	font-size: 60px;
 }
